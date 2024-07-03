@@ -6,6 +6,12 @@ def main():
     Code Your Program here
     ########################################
     """
+    pnumber = number
+    pfound = False
+    
+    while pfound == False:
+        pnumber += 1
+        
 
     print(pnumber)
 
