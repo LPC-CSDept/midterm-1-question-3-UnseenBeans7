@@ -15,10 +15,8 @@ def main():
             if pnumber % i == 0:
                 #has a multiple, not prime
                 break
-            else:
-                #is a prime number
-                pfound = True
-                break
+        else:
+            pfound = True
 
     print(pnumber)
 
