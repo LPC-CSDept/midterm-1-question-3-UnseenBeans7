@@ -11,7 +11,14 @@ def main():
     
     while pfound == False:
         pnumber += 1
-        
+        for i in range(2, pnumber):
+            if pnumber % i == 0:
+                #has a multiple, not prime
+                break
+            else:
+                #is a prime number
+                pfound = True
+                break
 
     print(pnumber)
 
